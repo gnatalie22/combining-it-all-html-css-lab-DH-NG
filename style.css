@@ -1,0 +1,30 @@
+body{
+    background: gray;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img{
+    width:100px;
+    height: 100px;
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    border-radius: 8px;
+    
+}
