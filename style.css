@@ -1,5 +1,7 @@
 body{
     background: gray;
+    margin: 0;
+    box-sizing: border-box;
     
 }
 
@@ -8,23 +10,34 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+h1{
+    display: flex;
+    justify-content: center;
+    
+}
 
 .img{
-    width:100px;
-    height: 100px;
+    max-width:300px;
+    max-height: 300px;
 }
 
 .container1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
+    gap:1em;
+    
     
 }
 
 .container2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
-    border-radius: 8px;
-    
+    gap:1em;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
